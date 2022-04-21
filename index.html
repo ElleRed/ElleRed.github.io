@@ -1,49 +1,87 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-    background: silver;
-    font-family: Verdana;
-}  
-#content {
-    background: lightblue;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
 <body>
-    <div id="content">
-        <h1>Elle Redmond</h1>
-        <h2>Freshman in Greenville, South Carolina</h2>
-        
-         <p>I am a freshman at Bob Jones University studying Criminal Justice. I want to be a Victims Advocate. I am also currently learning ASL, and will hopefully get my interpreting degree in the future.</p>
-             
-         <p> In between school, I work 2 jobs; one, a cashier at Panera and two, cleaning houses.</p>
-         <p>
-            I love singing, playing piano and guitar, and drawing digital art. I also love taking pictures of the sky and reading about/ watching movies about psychology.
-         </p>
-        
-        <h3>EDUCATION</h3>
-        Criminal Justice<br>
-        Bob Jones University
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">itsjustelle.me</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Blog Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="site-heading">
+                        <h1>It's Just Elle</h1><span class="subheading">An Ordinary Girl's Ordinary Blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">Oh That's What I Was Supposed to Do?</h2>
+                        <h3 class="post-subtitle">10 Things I Wish I Had Known Before Coming To Bob Jones</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Elle Redmond on April 18, 2022</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">Why Everyone Should Learn ASL.</h2>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Elle Redmond on April 30, 2022</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title">When You Can't Forget but Can't Remember</h2>
+                        <h3 class="post-subtitle">How to deal with difficult memories you don't want to think about</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Elle Redmond on May 2, 2022</a></p>
+                </div>
+                <hr>
+                <div class="post-preview"><a href="#">
+                        <h2 class="post-title"></h2>
+                        <h3 class="post-subtitle"></h3>
+                    </a></div>
+                <div class="clearfix"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></div>
+            </div>
+        </div>
     </div>
-           
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
 </body>
+
 </html>
