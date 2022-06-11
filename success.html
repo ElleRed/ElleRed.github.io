@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>About us - Brand</title>
+    <title>Contact us - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
@@ -26,13 +26,13 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/contact-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>About Me</h1><span class="subheading">In case you were wondering :)</span>
+                        <h1>Contact Me</h1><span class="subheading">Have questions? I have answers.</span>
                     </div>
                 </div>
             </div>
@@ -41,9 +41,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
-                <p>Hey all, it's Elle here! I'm so excited (and mildly embarrassed) that you've made it to my blog. I am very random with posting so who knows when my most recent post was, but feel free to look around and explore!</p><img src="assets/img/me.jpg" style="width: 250px;text-align: center;transform: translate(150px) scale(1);">
-                <p>If you know me, you know I have a variety of interests, theories, and random fun facts floating around my head... and I love to go on rants. So I guess a blog is the least annoying way to get what's in this crazy brain of mine out for people to hear- well I guess see, in this case. At least you don't have to read it if you don't want to!</p>
-                <p>Just a few things about me: I am a Criminal Justice major currently attending Bob Jones University in Greenville, SC. I have a big family whom I love very dearly, and spend most of my time with.&nbsp; My favorite hobbies are either watching movies with friends, singing in my car, learning ASL and most importantly doing Bible studies! Thanks for coming to my page, hope you enjoy the read.</p>
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label" for="name">Name</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><textarea class="form-control" id="message" data-validation-required-message="Please enter a message." required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="mb-3"><button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
+                </form>
             </div>
         </div>
     </div>
